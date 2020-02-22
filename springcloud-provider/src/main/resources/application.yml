@@ -8,7 +8,7 @@ mybatis:
 
 spring:
   application:
-    name: SPRINGCLOUD-PROVIDER-DEPT
+    name: SPRINGCLOUD-PROVIDER
   datasource:
     type: com.alibaba.druid.pool.DruidDataSource
     driver-class-name: com.mysql.jdbc.Driver
