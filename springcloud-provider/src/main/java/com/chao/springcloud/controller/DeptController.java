@@ -1,16 +1,15 @@
 package com.chao.springcloud.controller;
 
+import com.chao.springcloud.mapper.DeptMapper;
 import com.chao.springcloud.pojo.Dept;
 import com.chao.springcloud.service.DeptService;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
 @RestController
+@CrossOrigin
 public class DeptController {
     @Autowired
     private DeptService deptService;
